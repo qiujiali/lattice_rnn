@@ -2,11 +2,11 @@
 
 This repository is the code used in our paper:
 
->**[Bi-Directional Lattice Recurrent Neural Networks for Confidence Estimation](https://arxiv.org/abs/1810.13024)**
+>**[Bi-directional Lattice Recurrent Neural Networks for Confidence Estimation](https://arxiv.org/abs/1810.13024)**
 >
 >*Qiujia Li\*, Preben Ness\*, Anton Ragni, Mark Gales* (\* indicates equal contribution)
 >
->Submitted to ICASSP 2019
+>ICASSP 2019
 
 ## Model
 
@@ -94,18 +94,20 @@ In the `data/` directory:
 ## References
 
 ```plaintext
-@article{Li2018BiLatRNN,
-  title={Bi-Directional Lattice Recurrent Neural Networks for Confidence Estimation},
-  author={Li, Qiujia and Ness, Preben and Ragni, Anton and Gales, Mark},
-  journal={arXiv preprint arXiv:1810.13024},
-  year={2018}
+@inproceedings{Li2019BiLatRNN,
+  title={Bi-directional Lattice Recurrent Neural Networks for Confidence Estimation},
+  author={Li, Qiujia and Ness, Preben M. and Ragni, Anton and Gales, Mark J. F.},
+  booktitle={ICASSP},
+  year={2019},
+  address={Brighton}
 }
 
 @inproceedings{Ragni2018Confidence,
   title={Confidence Estimation and Deletion Prediction Using Bidirectional Recurrent Neural Networks},
-  author={Ragni, Anton and Li, Qiujia and Gales, Mark and Wang, Yu},
+  author={Ragni, Anton and Li, Qiujia and Gales, Mark J. F. and Wang, Yu},
   booktitle={SLT},
-  year={2018}
+  year={2018},
+  address={Athens}
 }
 ```
 
